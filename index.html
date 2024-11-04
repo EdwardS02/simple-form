@@ -6,6 +6,31 @@
     <title>Simple Form</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Simple Form</h1>
+    </header>
+    <!-- Create a central container for the form. -->
+    <div id="form">
+        <!-- The form should have the following fields: Full Name, Email, Phone Number, Message -->
+        <form action="" method="post">
+            <label for="name">Enter your full name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="number">Enter your phone number:</label>
+            <input type="tel" name="phone-number" id="number">
+
+            <br><br>
+
+            <label for="message">Leave us a message:</label><br>
+            <textarea name="message" id="message"></textarea>
+        </form> 
+    </div>
 </body>
 </html>
